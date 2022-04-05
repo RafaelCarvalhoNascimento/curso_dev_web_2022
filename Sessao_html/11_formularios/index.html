@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulários</title>
+    </head>
+    
+    <body>
+
+        <h2>Formulário parte 1</h2>
+
+        <h2>Login</h2>
+
+        <form action=""> <!-- Tag para criação do formulário o campo action direciona os dados para uma página externa que tratará os dados devidamente -->
+
+            Login: <br>
+            <input type="text" name="login"> <br> <!--Caixa de texto-->
+
+            Senha: <br>
+            <input type="password" name="senha"><br><br> <!--Caixa de senha type password-->
+
+            <input type="submit" value="Logar"> <!--Type button cria um botão --  Value cria um texto para o Botão -- Type Submit para submeter os dados  -->
+            
+        </form>
+
+        <hr>
+
+        <h2>Formulário parte 2</h2>
+
+        <h2>Cadastre-se</h2>
+
+        <form action="">
+
+            Login: <br>
+            <input type="text" name="login"> <br> <!--Caixa de texto-->
+            Sexo: <br>
+            <input type="radio" name="sexo" value="M">Masculino <br> <!--Input Radio nos dá a opção de caixas de seleção lembrando que para validar somente 1-->
+            <input type="radio" name="sexo" value="f">Feminino <br><br>  <!--devemos colocar o mesmo "Name" o value envia o dado selecionado para ser tratado mais tarde-->
+
+            <input type="checkbox" name="interesses">Futebol<br>
+            <input type="checkbox" name="interesses">Cursos<br>
+            <input type="checkbox" name="interesses">Moda<br><br>
+
+            Estado:<br>
+            <select name="estados" id="">
+                <option value="SP">São Paulo</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="RS">Rio Grande do Sul</option>
+            </select> <br><br>
+
+            Obs:<br>
+            <textarea name="" id="" cols="30" rows="10"></textarea><br>
+
+            <input type="submit" value="Cadastrar">
+
+
+        </form>
+        
+
+    </body>
+
+</html>
