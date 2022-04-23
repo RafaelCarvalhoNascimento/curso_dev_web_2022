@@ -5,61 +5,94 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Tags Divs e Span</title>
+        <title>Divs e Spans</title>
 
-        <Style type="text/css">
+        <style>
 
             #topo {
                 background: blue;
-            }
-
-            .logo1 {
-                width: 200px;
             }
 
             #conteudo {
                 background: red;
             }
 
+            #rodape{
+                background: green;
+            }
 
-        </Style>
+            #assinatura {
+                background: pink;
+            }
+
+            .produto {
+                background: gray;
+                margin: 10px;
+            }
+
+        </style>
+
     </head>
 
     <body>
+        
+        <!--Divs são usadas para organizar os conteúdos
+            de um site, São elementos do tipo block que
+            ocupam 100% da tela-->
+        
 
-        <h2>Divs, Tags & Id`s</h2>
-
-        <p>Div vem do inglês Divisão</p>
-
+        <!--Início Topo-->
         <div id="topo">
 
-            <img class="logo1" src="imagens/amazon-logo.png" alt="">
+            <img src="imagens/amazon.png" alt="Logo Amazon" width="200">
             <ul>
                 <li>Home</li>
                 <li>Produtos</li>
-                <li>Contato</li>
+                <li>Contatos</li>
             </ul>
+        </div> <!--Fim Topo-->
 
-        </div>
-
+        <!--Início Conteúdo-->
         <div id="conteudo">
 
-            <div>
+            <div class="produto">
+
                 Produto 1
+
             </div>
 
-            <div>
+            <div class="produto">
+
                 Produto 2
+
             </div>
 
-            <div>
+            <div class="produto">
+
                 Produto 3
-            </div>
-            
-            
 
-        </div>
+            </div>
+
+        </div> <!--Fim Conteúdo-->
+        
+        <!--Inicio Rodapé-->
+        <div id="rodape">
+
+            Todos os direitos reservados
+
+        </div> <!--Fim Rodapé-->
+
+        <!--Span são elementos do tipo Inline ele 
+            agrupa seus elementos linha a linha uma
+            a frente da outra-->
+        <span id="assinatura">
+
+            Rafael
+
+        </span>
+        
+        
 
     </body>
-
+    
 </html>
