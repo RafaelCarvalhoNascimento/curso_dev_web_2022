@@ -1,0 +1,27 @@
+.menu {
+    float: left;
+}
+
+a {
+    padding: 5px;
+    text-decoration: none;
+}
+
+/*Link não visitado e links visitados*/
+a:link, a:visited {
+    color: #b9c941;
+}
+
+/*Hover links quando sobrepostos pelo mouse*/
+a:hover {
+    color: #6d790f;
+}
+
+/*Link Ativo*/
+a:active {
+    color: #e4f371;
+}
+
+
+
+

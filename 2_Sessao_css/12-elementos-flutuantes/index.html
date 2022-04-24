@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Elementos Flutuantes</title>
+        <link rel="stylesheet" href="css/estilo.css">
+    </head>
+
+    <body>
+        <div>
+            <h2>Elementos Flutuantes</h2>
+            <p>Utilizando a propriedade Float:</p>
+            <p>Elementos com a propriedade float saem do fluxo normal do modelo de caixa</p>
+            <p>Elementos float se alinham 1 ao lado do outro</p>
+        </div>
+
+        <!--
+        Elemento utilizado para demonstração do comportamento de conteúdos sem o float
+        <div class="conteudo-zero">
+            Conteúdo 0
+        </div>    
+        -->
+        <div id="principal">
+
+            <div class="conteudo">
+                Conteúdo 1
+            </div>
+
+            <div class="conteudo">
+                Conteúdo 2
+            </div>
+
+            <div class="conteudo">
+                Conteúdo 3
+            </div>    
+
+            <div class="clear"></div>
+        </div>
+
+        
+        
+
+        <h2 class="clear">Organizando Elementos abaixo das caixas flutuantes</h2>
+
+        <p>
+            Para organizar novos elementos abaixo dos elementos flutuantes da página
+            podemos utilizar o atributo "Clear" que irá limpar o fluxo flutuante
+        </p>
+
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam sit corporis
+            beatae distinctio natus ratione exercitationem deleniti ab ipsam dolorem
+            mollitia minima minus, velit iusto nisi, dolores tempora maiores excepturi! 
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam sit corporis
+            beatae distinctio natus ratione exercitationem deleniti ab ipsam dolorem
+            mollitia minima minus, velit iusto nisi, dolores tempora maiores excepturi! 
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam sit corporis
+            beatae distinctio natus ratione exercitationem deleniti ab ipsam dolorem
+            mollitia minima minus, velit iusto nisi, dolores tempora maiores excepturi!
+        </p> 
+
+    </body>
+
+</html>

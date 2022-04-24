@@ -1,0 +1,9 @@
+.borda {
+    border: 1px solid red;
+}
+
+.span {
+    border: 1px solid red;
+    padding: 10px;
+    display: inline-block;
+}

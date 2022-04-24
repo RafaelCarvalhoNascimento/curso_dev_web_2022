@@ -1,0 +1,32 @@
+body {
+    background: #007fc7;
+}
+
+p {
+    width: 300px;
+}
+
+#container {
+    background: #fff;
+    width: 800px;
+    margin: 10px auto;
+    padding: 10px;
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+    border: 1px solid red;
+    top: 0px;
+    right: 20px;    
+    background: #f2f2f2;
+}
+
+.fixed {
+    border: 1px solid red;
+    background: #f2f2f2;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    margin: 0px;
+}

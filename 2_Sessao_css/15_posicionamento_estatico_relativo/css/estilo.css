@@ -1,0 +1,28 @@
+body {
+    background: #007fc7;
+}
+
+h1 {
+    
+}
+
+p {
+    width: 300px;
+}
+
+#container {
+    background: #fff;
+    width: 800px;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+.relative {
+    border: 1px solid red;
+    position: relative;
+    /*atributos de posicionamento para uso com relative 
+    top - right - bottom - left
+    */
+    top: 20px;
+    left: 80px;
+}
